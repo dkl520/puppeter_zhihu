@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    //     function fun(n, o) {
+    //         console.log(o)
+    //         // n===3
+    //         return {
+    //             fun: function (m) {
+    //                 return fun(m,  n);
+    //             }
+    //         }
+    //     }
+    //     var a = fun(0);//undefined
+    //     a.fun(1);//0
+    //     a.fun(2);//0
+    //     a.fun(3);//0
+    // var b=fun(0).fun(1).fun(2).fun(3);//undefined  0  1  2
+
+    </script>
+    <script>
+        // let a = {
+        //     b: "c"
+        // }
+        let a=[1,2,3,4,5];
+       var n= [...a]
+          var n= JSON.parse(JSON.stringify(a))
+             n[1]=1;
+             console.log(a,n)
+
+        // Object.prototype.toString(a);
+        a.toString();
+        console.log(`${a}`)
+    </script>
+</body>
+
+</html>
